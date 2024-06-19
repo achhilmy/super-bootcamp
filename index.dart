@@ -3,4 +3,13 @@
 
 void main() {
   print("Hello world");
+  kalikan();
+}
+
+kalikan() {
+  int a = 10;
+  int b = 11;
+
+  final temp = a * b;
+  print(temp);
 }
